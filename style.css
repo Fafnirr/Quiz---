@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*ajoute une image en background et la centre*/
+body{
+    background: linear-gradient(
+    180deg,
+    #080808 0%,
+    rgba(122, 34, 46, 0.87) 28.13%,
+    rgba(192, 25, 33, 0.87) 50%,
+    rgba(187, 91, 35, 0.81) 72.92%,
+    rgba(8, 115, 230, 0.67) 100%
+    );
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    height: auto;
+}
+
+/*centre le text de la navbar*/
+.navbar{
+    background-color: #212529;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/*titre sur le header*/
+#title{
+    text-align: center;
+    font-size: 24px;
+    font-style: italic !important;
+    font-weight: 700 !important;
+}
+
+
+/*gère la taille du formulaire et centre le contenue*/
+#question-form{
+    height: 25em;
+    width: 100%;
+    pointer-events: none;
+    display: flex;
+    justify-content: center;
+}
+
+#question-form .reps{
+    pointer-events: auto;
+}
+
+/*gère la couleur et l'opacité de la div container 'quiz' */
+.quizz{
+    border-radius: 1.5%;
+    font-size: 24px;
+    background-color: #212529;
+    color: white;
+}
+
+/*container de la question*/
+.questionContainer{
+    width: 90%;
+    border-radius: 5%;
+    font-style: italic !important;
+    font-weight: 700 !important;
+    margin-top: 5%;
+    margin-left: 5%; 
+    background-color: #212327;
+    display: flex;
+    justify-content: center;
+}
+
+.repContainer {
+    width: 100%;
+    margin-top: 8%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.reps{
+    width: 35%;
+}
+
+#submit{
+    background-color: #212529;
+}
+
+.repJuste{
+    font-size: 24px;
+    font-style: italic !important;
+    font-weight: 700 !important;
+}
+
+.option{
+    height: 90px;
+    width: 100%;
+    background-color: rgb(192, 25, 33);
+    color: white;
+    border: none;
+    border-radius: 1.5%;
+    margin-bottom: 5%;
+    font-style: italic !important;
+    font-weight: 700 !important;
+}
+
+.reps{
+    height: 50%;
+    width: 45%;
+}
